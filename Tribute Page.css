@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    font-family: "Roboto";
+
+}
+
+/*Nav Bar Logo */
+.logo {
+    height: 10vh;
+}
+
+/*Second Container image*/
+.secondContainer .secondContainer-img {
+    height: 155px;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+}
+
+/*First Container */
+.mainContainer {
+    background-color: #b39162;
+    padding: 5vw;
+    border-right: 1px solid black;
+    color: white;
+}
+
+.mainContainer h1 {
+    font-weight: 500;
+
+}
+
+.mainContainer p {
+    color: #dce0e0;
+}
+
+/*secondContainer */
+.secondContainer {
+    padding: 3vw 4vw;
+    text-align: center;
+}
+
+/*hr element */
+hr {
+    color: black;
+    border: solid black 1px;
+}
+
+/*birth card image */
+.birth-img {
+    height: 24px;
+}
+
+/*contents anchor element*/
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/*list of contents */
+.bio li {
+    border: 1px solid white;
+    border-radius: 2vw;
+    padding-right: 3px;
+}
+
+/*social media image*/
+.logoImg {
+    height: 24px;
+}
+
+/*button To Top */
+.buttonTop {
+    border-radius: 50%;
+    background-color: #b39162;
+    margin: 3vw;
+    color: white;
+    width: 50px;
+    border: none;
+    outline: 1px solid black;
+    outline-offset: 2px;
+
+    padding: 12px;
+}
+
+/*Media Query */
+@media (max-width:768px) {
+    .sivaji-img {
+        height: 25vh;
+    }
+
+    .content-img {
+        height: 35vh;
+        margin: 10px;
+    }
+
+    .content-img1 {
+        height: 35vh;
+        margin: 10px;
+    }
+
+    .secondContainer fa-solid {
+        align-items: center;
+    }
+
+    .thirdContainer {
+        text-align: center;
+    }
+
+    .Sidebar {
+        background-color: #b39162;
+        color: white;
+        padding: 16px;
+    }
+
+    .main-content {
+        border: 1px solid black;
+        margin: 14px;
+        padding: 10px;
+        border-radius: 2vw;
+
+    }
+
+    .content-title {
+        font-weight: bold;
+    }
+
+    .navTitle {
+        margin-top: 3vh;
+        margin-left: 2vw;
+    }
+
+    .navTitle h6 {
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .logo {
+        margin-left: 2vw;
+    }
+}
+
+/*Media Query for only large Devices */
+
+@media (max-width:992px) and (min-width:992px) {
+    .sivaji-img {
+        width: 43vw;
+    }
+
+}
+
+/*media Query for Medium and large , extra-large devices */
+@media (min-width:769px) {
+    .logo {
+        margin-left: 2vw;
+    }
+
+    .navTitle {
+        margin: 4vh;
+        justify-content: center;
+        font-weight: bold;
+
+    }
+
+    .navTitle h6 {
+        font-size: 26px;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+
+    .secondContainer {
+        height: 50vh;
+    }
+
+    .thirdContainer {
+        display: flex;
+        flex-direction: column;
+        height: 55vh;
+    }
+
+    .main-content {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 2vh;
+    }
+
+    .img2 {
+        margin-right: 16px;
+    }
+
+    strong h4 {
+        font-weight: bold;
+    }
+
+    .Sidebar {
+        padding-left: 4vw;
+        background-color: #b39162;
+        border-right: 4px solid black;
+        flex-shrink: 0;
+        color: white;
+        height: 55vh;
+
+    }
+
+    .bg {
+        flex-grow: 1;
+        overflow-y: auto;
+        display: flex;
+    }
+
+    .content {
+        flex-grow: 1;
+        overflow-y: auto;
+        margin-left: 2vw;
+        border-top: 5px solid #b39162;
+        border-top-left-radius: 2vw;
+        padding: 2vw;
+    }
+
+    ul>li {
+        font-size: 2vh;
+        color: black;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 12px;
+    }
+
+    .Birth {
+        text-align: center;
+    }
+
+    .sivaji-img {
+        height: 35vh;
+    }
+
+    .content-title {
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .content-description1 {
+        margin-bottom: 4vh;
+    }
+
+    .content-description2 {
+        padding-top: 2vh;
+    }
+
+    .self-img {
+        order: 1;
+    }
+
+    .content-img {
+        margin-right: 2vw;
+        max-height: 35vh;
+    }
+
+    .content-img1 {
+        margin-left: 2vw;
+        width: 18vw;
+        max-height: 35vh;
+    }
+
+    li {
+        cursor: pointer;
+    }
+
+    .bio {
+        margin-top: 3vh;
+        margin-right: 3vw;
+    }
+}
